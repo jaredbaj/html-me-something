@@ -1,0 +1,264 @@
+html {
+height: 100%;
+}
+
+
+body {
+  font-family: 'Montserrat';
+
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+h1 {
+  display: inline-block;
+  margin: 2.5%;
+}
+
+h2, h3, p {
+  margin-bottom: 1%;
+  margin-left: 2%;
+
+}
+
+p {
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 175%;
+  
+}
+
+
+ul {
+  list-style-type: none;
+  float: left;
+  width: 80%;
+}
+
+li {
+  margin: .5%;
+
+}
+
+a:hover {
+  color:#88B04B;
+}
+
+.banner h1 {
+  font-size: 40px;
+  position: fixed;
+  /*background-color: #B2D6FF;*/
+}
+
+.sidebar {
+  /*background-color: #F09A9D;*/
+  width: 20%;                 /* Add this */
+  height: 100%;
+  float: left;
+  position: fixed;
+  margin-top: 10.5%;
+}
+
+
+
+  -moz-animation-name: sidebar;
+      -moz-animation-iteration-count: 1;
+      -moz-animation-timing-function: ease;
+      -moz-animation-duration: 0.6s;
+
+      -webkit-animation-name: sidebar;
+      -webkit-animation-iteration-count: 1;
+      -webkit-animation-timing-function: ease;
+      -webkit-animation-duration: 0.6s;
+
+      animation-name: sidebar;
+      animation-iteration-count: 1;
+      animation-timing-function: ease;
+      animation-duration: 0.6s;
+}
+
+.workspace {
+  margin-top: 2.5%;
+}
+
+.grun {
+  color: #88B04B;
+}
+
+
+
+.about-content {
+  /*background-color: #F5CF8E;*/
+  float: right;
+  height: 100%;
+  width: 70%;
+  display: inline-block;
+  position: relative;
+  margin: 1px;
+  margin-top: 10%;
+  margin-right: 6.5%;
+
+  @media screen and (max-width: 1065px)  {
+  width: 600px;
+  }
+}
+
+.canvas-content {
+  float: right;
+  height: 100%;
+  width: 80%;
+  display: inline-block;
+  position: relative;
+}
+
+canvas {
+  height: 100vh;
+  width: 100%;
+  float: right;
+  background-image: url("connect-the-dots.svg");
+  background-attachment: fixed;
+}
+
+
+.resume-content {
+  /*background-color: #F5CF8E;*/
+  float: left;
+  height: 100%;
+  width: 100%;
+  display: inline-block;
+  position: relative;
+  margin: auto;
+}
+
+.connect {
+  position: absolute;
+  margin-left: 20%;
+  margin-bottom: 5%;
+  width: 65%;
+}
+
+.face {
+  float: right;
+  position: absolute;
+  display: inline-block;
+  margin: 1.5%;
+  right: 0;
+  height: 81px;
+  width: 50px;
+}
+
+.resume-wrapper {
+  float: right;
+  width: 78%;
+  height: 100%;
+  margin: auto;
+  margin-bottom: 250px;
+  margin: auto;
+  margin-top: 10%;
+  display: inline-block;
+  position: relative;
+
+}
+
+.resume {
+  display: inline-block;
+  width: 850px;
+}
+
+.portfolio {
+  display: inline-block;
+  width: 850px;
+  margin-top: 1%;
+  margin-left: 2%;
+}
+
+.off {
+  color: lightgrey;
+}
+
+.BREAK {
+  height: 300px;
+  width: 100%;
+}
+
+.SMALLERBREAK {
+  height: 30px;
+  width: 100%;
+}
+
+
+
+.social-icon {
+  height: 25px;
+  width: 25px;
+  margin: 1%;
+  margin-right: 1.5%;
+}
+
+.social-icon-li {
+  height: 25px;
+  width: 25px;
+  margin: 1%;
+  margin-right: 1.5%;
+  margin-bottom: .25%;
+}
+
+.contactwrapper {
+  margin: auto;
+}
+
+li.contactlist{
+  display: inline-block;
+  margin: 20px;
+}
+
+.anchor:hover {
+  color: black;
+  cursor: default;
+}
+
+
+/* SIDEBAR ANIMATION */
+
+@-moz-keyframes side-nav {
+    100% {
+        -moz-transform: translateX(0);
+    }
+   0% {
+        -webkit-transform: translateX(-250px);
+    }
+}
+
+@-webkit-keyframes side-nav {
+    100% {
+        -webkit-transform: translateX(0);
+    }
+    0% {
+        -webkit-transform: translateX(-250px);
+    }
+}
+@keyframes side-nav {
+    100% {
+        transform: translateX(0);
+    }
+    0% {
+        transform: translateX(-250px);
+    }
+}
+
+
+footer {
+  font-size: 10px;
+
+  width: 80%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1rem;
+  text-align: center;
+  /*background-color: lavender;*/
+}
